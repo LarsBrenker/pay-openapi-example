@@ -14,8 +14,8 @@ import jakarta.ws.rs.core.Application;
 @ApplicationScoped
 @jakarta.ws.rs.ApplicationPath("/")
 @OpenAPIDefinition(info = @Info(
-        title = "Payara Micro Reproducer with Eclipse MicroProfile 6.0",
-        description = "Payara Micro Reproducer with Eclipse MicroProfile 6.0",
+        title = "Payara Micro Application with Eclipse MicroProfile 6.0",
+        description = "This Application demonstrates the problem where the Request Body JSON Example is not filled in OpenApi Document",
         version = "1.0-SNAPSHOT"
 )
 )
